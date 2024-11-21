@@ -1,63 +1,34 @@
-project/
-├── frontend/
-│   ├── public/
-│   │   ├── index.html
-│   │   ├── about.html
-│   │   ├── login.html
-│   │   ├── favicon.ico
-│   │   └── manifest.json
-│   ├── assets/
-│   │   ├── images/
-│   │   ├── fonts/
-│   │   └── styles/
-│   │       ├── style.css
-│   │       └── responsive.css
-│   ├── scripts/
-│   │   ├── main.js
-│   │   ├── auth.js
-│   │   └── dashboard.js
-│   ├── package.json (if using npm for frontend tools like bundlers)
-│   ├── webpack.config.js (optional, for module bundling)
-│   └── .env (optional, for frontend environment variables)
-├── backend/
-│   ├── controllers/
-│   │   ├── authController.js
-│   │   ├── userController.js
-│   │   └── modelController.js
-│   ├── models/
-│   │   ├── userModel.js
-│   │   ├── sessionModel.js
-│   │   └── predictionModel.js
-│   ├── routes/
-│   │   ├── authRoutes.js
-│   │   ├── userRoutes.js
-│   │   └── modelRoutes.js
-│   ├── middleware/
-│   │   ├── authMiddleware.js
-│   │   └── errorHandler.js
-│   ├── utils/
-│   │   ├── dbConnect.js
-│   │   ├── config.js
-│   │   └── logger.js
-│   ├── server.js
-│   ├── package.json
-│   └── .env
-├── ml_model/
-│   ├── data/
-│   │   ├── train/
-│   │   ├── test/
-│   │   └── raw/
-│   ├── notebooks/
-│   │   ├── model_training.ipynb
-│   │   └── data_preprocessing.ipynb
-│   ├── src/
-│   │   ├── model.py
-│   │   ├── preprocess.py
-│   │   └── predict.py
-│   ├── saved_models/
-│   │   └── model_v1.h5
-│   ├── requirements.txt
-│   ├── app.py (for running the model as a Flask/FastAPI app)
-│   └── .env
-├── README.md
-└── .gitignore
+Enthos.ai
+A resume enhance webapp for new dev to 
+
+Table of Contents
+Introduction
+Features
+Tech Stack
+Setup and Installation
+Usage
+AI Model Details
+Folder Structure
+Contributing
+License
+Introduction
+Provide a brief overview of your project:
+
+What does it do?
+Why is it useful?
+Target audience.
+Example:
+
+This project leverages AI to [describe what the AI model does, e.g., classify, predict, or generate content]. The goal is to [purpose, e.g., automate workflows, enhance creativity, or solve specific problems].
+
+Features
+List key features of the project.
+Example:
+AI-powered predictions.
+Interactive frontend with Tailwind CSS.
+REST API for model inference.
+Tech Stack
+Frontend: HTML, Tailwind CSS, JavaScript.
+Backend: Node.js, Express.js.
+AI Model: [Model name, e.g., TensorFlow, PyTorch, or Scikit-learn].
+Database: [If applicable].
