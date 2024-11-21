@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 Enthos.ai
 A resume enhance webapp for new dev to 
 
