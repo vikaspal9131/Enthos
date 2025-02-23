@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Talent Meeting Page</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-black text-white relative">
+   
+    <!-- Navbar -->
+    <nav class="w-full flex justify-between items-center px-6 py-4  fixed top-0 left-0 right-0 z-20">
+        <h1 class="text-xl font-bold text-white">Enthos</h1>
+        <ul class="flex space-x-6 text-gray-300">
+            <li><a href="#home" class="hover:text-white">Home</a></li>
+            <li><a href="#about" class="hover:text-white">About</a></li>
+            <li><a href="#features" class="hover:text-white">Features</a></li>
+            <li><a href="#contact" class="hover:text-white">Contact</a></li>
+        </ul>
+       
+    </nav>
+
+    <!-- Main Section with Background Image -->
+    <section id="home" class="relative flex flex-col items-start justify-center min-h-screen text-center px-6 bg-cover bg-center"
+>
+        <video autoplay loop muted playsinline class="absolute top-0 left-0 w-full h-full object-cover z-[-1]">
+            <source src="test.mp4" type="video/mp4">
+            Your browser does not support the video tag.
+        </video>
+        <!-- Dark Overlay -->
+        <div class="absolute inset-0 bg-black bg-opacity-80"></div>
+     
+        <!-- Content -->
+        <div class="relative z-10">
+            <div class= "flex justify-center items-start flex-col z-50 h-5/6 ">
+       
+                <h1 class=" text-start font-semibold  md:text-base lg:text-8xl">The only scalable API-first <br> leading and credit platform</h1>
+               
+                <div class="flex gap-5 mt-10">
+                 <a href="#" class="px-10 py-2 bg-blue-800 text-white font-semibold ">Analysis <i class="ri-arrow-right-line"></i></a>
+                 <a href="#" class="px-10 py-2 bg-black text-white font-semibold ">Enhance Resume</a>
+                </div>
+              </div>  
+          
+        </div>
+    </section>
+
+    <!-- Features Section -->
+    <section id="features" class="mt-10  py-16">
+        <h2 class="text-5xl font-semibold">FEATURES</h2>
+        <p class="text-gray-400 mt-2">Launch with Ease</p>
+
+        <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6 mt-10">
+            <div class="bg-gray-900 p-6 rounded-xl shadow-lg">
+                <h3 class="text-lg font-semibold">🚀 Unlimited Requests</h3>
+                <p class="text-gray-400 mt-2 text-sm">Get unlimited task requests and prioritize what is needed in your business.</p>
+            </div>
+            <div class="bg-gray-900 p-6 rounded-xl shadow-lg">
+                <h3 class="text-lg font-semibold">⚡ Launch Fast</h3>
+                <p class="text-gray-400 mt-2 text-sm">Start immediately after subscribing with a 2-day average turnaround time.</p>
+            </div>
+            <div class="bg-gray-900 p-6 rounded-xl shadow-lg">
+                <h3 class="text-lg font-semibold">📅 Start Today</h3>
+                <p class="text-gray-400 mt-2 text-sm">Get started immediately after subscribing with quick turnaround times.</p>
+            </div>
+            <div class="bg-gray-900 p-6 rounded-xl shadow-lg">
+                <h3 class="text-lg font-semibold">⏸ Pause Or Cancel Anytime</h3>
+                <p class="text-gray-400 mt-2 text-sm">Pause or cancel your subscription anytime with full flexibility.</p>
+            </div>
+            <div class="bg-gray-900 p-6 rounded-xl shadow-lg">
+                <h3 class="text-lg font-semibold">💰 Affordable Pricing</h3>
+                <p class="text-gray-400 mt-2 text-sm">Save up to 75% per year compared to hiring a full-time developer.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Newsletter Subscription -->
+    <section id="contact" class="relative bg-black text-white rounded-2xl p-10 max-w-4xl mx-auto shadow-lg">
+        <div class="max-w-md">
+            <h2 class="text-2xl font-bold">Subscribe to our newsletter</h2>
+            <p class="text-gray-400 mt-3 text-sm">Stay updated with our latest news.</p>
+            <div class="mt-5 relative">
+                <input type="email" placeholder="Enter your email"
+                    class="w-full px-4 py-3 rounded-full text-black outline-none focus:ring-2 focus:ring-white">
+                <button class="absolute right-2 top-1/2 transform -translate-y-1/2 bg-white text-black px-4 py-2 rounded-full font-semibold">
+                    Subscribe
+                </button>
+            </div>
+        </div>
+    </section>
+
+
+    <footer class="relative bg-white text-black px-8 py-16">
+        <!-- Large background text -->
+        <div class="absolute inset-0 flex justify-center items-center text-black opacity-10 text-[200px] font-bold pointer-events-none">
+            Enthos
+        </div>
+    
+        <div class="relative flex flex-wrap justify-between">
+            <!-- Newsletter Section -->
+            <div class="w-full md:w-1/3 mb-8">
+                <h3 class="text-xl font-semibold">Subscribe to the Opal Newsletter</h3>
+                <p class="text-gray-500 text-sm mt-2">Latest news, musings, announcements, and updates direct to your inbox.</p>
+                <button class="mt-4 bg-black text-white rounded-full p-3 flex items-center">
+                    <span class="mr-2">→</span>
+                </button>
+            </div>
+    
+            <!-- Links Section -->
+            <div class="w-full md:w-2/3 flex flex-wrap justify-between">
+                <div>
+                    <h4 class="font-semibold mb-2">Products</h4>
+                    <ul class="text-gray-500 text-sm space-y-1">
+                        <li><a href="#">Tadpole</a></li>
+                        <li><a href="#">Opal C1</a></li>
+                        <li><a href="#">Composer</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <h4 class="font-semibold mb-2">Company</h4>
+                    <ul class="text-gray-500 text-sm space-y-1">
+                        <li><a href="#">About</a></li>
+                        <li><a href="#">Terms</a></li>
+                        <li><a href="#">Privacy</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <h4 class="font-semibold mb-2">Resources</h4>
+                    <ul class="text-gray-500 text-sm space-y-1">
+                        <li><a href="#">Support</a></li>
+                        <li><a href="#">Media Kit</a></li>
+                        <li><a href="#">Downloads</a></li>
+                        <li><a href="#">Newsletter</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <h4 class="font-semibold mb-2">Social</h4>
+                    <ul class="text-gray-500 text-sm space-y-1">
+                        <li><a href="#">Instagram</a></li>
+                        <li><a href="#">Twitter</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    
+        <!-- Bottom Bar -->
+        <div class="relative mt-12 border-t border-gray-300 pt-4 text-gray-500 text-sm flex justify-between">
+            <p>Opal Camera Inc.</p>
+            <p>All rights reserved.</p>
+        </div>
+    </footer>
+
+
+</body>
+</html>
